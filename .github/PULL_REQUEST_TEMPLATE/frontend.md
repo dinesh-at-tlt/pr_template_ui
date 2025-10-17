@@ -1,0 +1,105 @@
+# Frontend Pull Request Template
+
+**Title:** <short, imperative summary> (e.g. "Add user profile component")
+
+**Ticket / Issue**
+- Closes: # (issue number) / Fixes: # / Related: #
+
+## Summary
+- One-sentence summary of the change.
+- High-level rationale — why this change is needed.
+
+## Key changes
+- Bullet list of the most important changes (components created/updated, hooks, services, styles, assets, pages, build config, package updates).
+
+## Type of change (check all that apply)
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation
+- [ ] Refactor
+- [ ] Tests
+- [ ] CI/CD
+- [ ] Chore (deps, tooling)
+- [ ] Release
+- [ ] Other — describe: ______
+
+## Breaking changes
+- [ ] Yes — describe breaking change(s) and migration plan
+- [ ] No
+
+## UI / Design
+- Is this change visible to users? (Yes/No)
+- Design links (Figma/Sketch):
+- Visual changelog (short description of UX change):
+
+## Accessibility
+- [ ] Screen-reader tested
+- [ ] Keyboard navigation verified
+- [ ] Color contrast checked
+- [ ] aria attributes added where necessary
+- Describe any a11y impact or notes:
+
+## Browser / Device Support
+- Supported browsers and versions tested locally (e.g., Chrome, Firefox, Safari, Edge)
+- Responsive breakpoints checked (mobile/tablet/desktop)
+
+## Dependencies
+- [ ] None
+- [ ] New package(s) added — list packages and reasons
+- [ ] Packages updated — list packages and reasons
+
+## Testing performed
+**Type:**
+- [ ] Automated (unit / integration / e2e) — list affected test suites and commands to run (e.g., `yarn test`, `npm run test:unit`)
+- [ ] Manual — describe scenarios and verification steps (include pages, actions, expected results)
+- [ ] Storybook / component previews added — link or story names
+
+**Details:**
+Describe how the changes were tested (commands, scenarios, or attach screenshots if manual).
+
+## How to run locally (exact commands)
+- Clone/checkout:
+  - `git checkout -b <branch-name>`
+- Setup:
+  - e.g., `cp .env.example .env` and set environment variables
+  - `yarn install` or `npm install`
+- Run:
+  - `yarn start` / `npm start`
+  - `yarn test` / `npm test`
+  - `yarn build` / `npm run build`
+  - `yarn storybook` (if applicable)
+- Commands to reproduce the issue or to exercise the change (URLs, steps, sample user flows):
+
+## Performance / Bundle size
+- Any effect on bundle size or runtime performance (before/after sizes if available)
+- Steps to measure locally (e.g., `source-map-explorer`, `webpack-bundle-analyzer`)
+
+## Security considerations
+- Any new secrets, token scope changes, or user data exposure
+- Third-party scripts or tracking added — review required
+
+## Checklist (self-review)
+- [ ] I have reviewed my PR
+- [ ] I removed unnecessary logs and commented-out code
+- [ ] I ran the test suite locally and all tests pass
+- [ ] I added/updated tests for my changes
+- [ ] I updated documentation where needed (README, components README)
+- [ ] I updated Storybook or component documentation (if applicable)
+- [ ] I updated CHANGELOG.md / Release notes if applicable
+- [ ] I updated or added accessibility tests / checks
+- [ ] I considered security implications
+- [ ] I considered performance and bundle size
+
+## Notes for the reviewer
+- Anything the reviewer should focus on, tricky areas, or files to ignore
+- Suggested reviewers or teams: @team/frontend, @team-design
+
+## Screenshots / Recordings (required for UI changes)
+- Attach screenshots, recordings, or GIFs demonstrating UI/behavior
+
+## Release notes (short)
+- One-line note for release changelog
+
+## Other notes
+- Feature flags to enable, rollout plan, or backwards-compatibility notes
+- Any manual deployment steps (if applicable)
