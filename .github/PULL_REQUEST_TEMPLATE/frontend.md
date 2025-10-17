@@ -1,7 +1,5 @@
 # Frontend Pull Request Template
 
-**Title:** <short, imperative summary> (e.g. "Add user profile component")
-
 **Ticket / Issue**
 - Closes: # (issue number) / Fixes: # / Related: #
 
@@ -33,11 +31,7 @@
 - Visual changelog (short description of UX change):
 
 ## Accessibility
-- [ ] Screen-reader tested
 - [ ] Keyboard navigation verified
-- [ ] Color contrast checked
-- [ ] aria attributes added where necessary
-- Describe any a11y impact or notes:
 
 ## Browser / Device Support
 - Supported browsers and versions tested locally (e.g., Chrome, Firefox, Safari, Edge)
@@ -68,11 +62,6 @@ Describe how the changes were tested (commands, scenarios, or attach screenshots
   - `yarn test` / `npm test`
   - `yarn build` / `npm run build`
   - `yarn storybook` (if applicable)
-- Commands to reproduce the issue or to exercise the change (URLs, steps, sample user flows):
-
-## Performance / Bundle size
-- Any effect on bundle size or runtime performance (before/after sizes if available)
-- Steps to measure locally (e.g., `source-map-explorer`, `webpack-bundle-analyzer`)
 
 ## Security considerations
 - Any new secrets, token scope changes, or user data exposure
@@ -84,11 +73,7 @@ Describe how the changes were tested (commands, scenarios, or attach screenshots
 - [ ] I ran the test suite locally and all tests pass
 - [ ] I added/updated tests for my changes
 - [ ] I updated documentation where needed (README, components README)
-- [ ] I updated Storybook or component documentation (if applicable)
-- [ ] I updated CHANGELOG.md / Release notes if applicable
-- [ ] I updated or added accessibility tests / checks
 - [ ] I considered security implications
-- [ ] I considered performance and bundle size
 
 ## Notes for the reviewer
 - Anything the reviewer should focus on, tricky areas, or files to ignore
@@ -97,9 +82,4 @@ Describe how the changes were tested (commands, scenarios, or attach screenshots
 ## Screenshots / Recordings (required for UI changes)
 - Attach screenshots, recordings, or GIFs demonstrating UI/behavior
 
-## Release notes (short)
-- One-line note for release changelog
-
 ## Other notes
-- Feature flags to enable, rollout plan, or backwards-compatibility notes
-- Any manual deployment steps (if applicable)
